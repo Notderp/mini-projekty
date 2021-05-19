@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Blackjack</title>
+    <link href="styles.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<div id="table">
+    <div id="header">
+        BlackJack
+    </div>
+    <div id="aiHand" class="hand">
+        <div class="playerName">AI's hand</div>
+        <div class="playerSum" id="AISum">AI's sum: ?</div>
+
+    </div>
+    <div id="playerHand" class="hand">
+        <div class="playerName">Players's hand</div>
+        <div class="playerSum" id="mySum">Players' sum: </div>
+        <div class="options">
+            <button class="optBtn" onclick="chooseTake()">Take</button>
+            <button class="optBtn" onclick="choosePass(playerHand)">Pass</button>
+        </div>
+
+
+    </div>
+
+</div>
+
+<script src="brain.js" type="text/javascript"></script>
+</body>
+</html>

@@ -1,0 +1,185 @@
+body
+{
+    background-color: #36151E;
+    font-family: Arial;
+}
+#table
+{
+    padding: 10px;
+    width: 480px;
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #593f62;
+    border-radius: 20px;
+    border: 3px solid #7C0F21;
+}
+#table > *
+{
+
+}
+
+#header
+{
+    color: #ABBCCE;
+    border-radius: 20px;
+    font-size: 30px;
+    text-align: center;
+    background-color: #874697;
+    width: 480px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    border: 3px solid #951E89;
+
+}
+.hand
+{
+    border-radius: 20px;
+    background-color: #874697;
+    margin-top: 30px;
+    height: 100px;
+    display: flex;
+    border: 3px solid #951E89;
+
+
+}
+.playerName
+{
+    border-radius: 10px;
+position: absolute;
+    font-size: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: -25px;
+    background-color: #848CB2;
+    z-index: 100;
+    color: #36151E;
+    border: 3px solid #6B9FD3;
+}
+.playerSum
+{
+    border-radius: 10px;
+    position: absolute;
+    font-size: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: -25px;
+    margin-left: 300px;
+    background-color: #848CB2;
+    z-index: 10;
+    color: #36151E;
+    border: 3px solid #6B9FD3;
+}
+.cardimg, .cardimghid
+{
+    position: relative;
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+
+}
+
+.card
+{
+    position: relative;
+    background-color: coral;
+    height: 80px;
+    width: 50px;
+    float: left;
+    margin: 10px;
+    font-size: 30px;
+    text-align: center;
+    vertical-align: center;
+    display: flex;
+    z-index: 20;
+    -webkit-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.5);
+}
+.pass
+{
+    background-color: transparent;
+    height: 80px;
+    width: 100px;
+    float: left;
+    margin: 10px;
+    font-size: 30px;
+    text-align: center;
+    vertical-align: center;
+    display: flex;
+}
+.options
+{
+    margin: 10px;
+    width: 50px;
+    float: end;
+    height: 80px;
+}
+.optBtn
+{
+    width: 50px;
+    margin-top: 5px;
+    height: 30px;
+    background-color: #8B2A81;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #848CB2;
+    transition: all ease-in-out 0.15s;
+    -webkit-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.5);
+}
+.optBtn:hover
+{
+    background-color: #BD27AE;
+    color: #6B9FD3;
+    transform: scale(0.90,0.90);
+}
+#endbox
+{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -360px;
+    background-color: #36151E;
+    border-radius: 15px;
+    border: 3px solid #7C0F21;
+    width: 200px;
+    padding: 30px;
+    z-index: 200;
+    font-size: 30px;
+    text-align: center;
+    color: #BA172F;
+    transition: all ease-in-out 0.5s;
+    -webkit-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.5);
+
+}
+#endbtn
+{
+    margin-top: 10px;
+    outline: none;
+    border: none;
+    background-color: #BA172F;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #36151E;
+    transition: all ease-in-out 0.15s;
+
+}
+#endbtn:hover
+{
+    transform: scale(0.95,0.95);
+    background-color: #E52942;
+    color: #7C0F21;
+}
+#playerHand
+{margin-top: 250px}
